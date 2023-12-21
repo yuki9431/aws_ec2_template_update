@@ -10,7 +10,7 @@ function log() {
     PROCNAME=${0##*/}
 
     local fname=${BASH_SOURCE[1]##*/}
-    echo -e "$(date '+%Y-%m-%dT%H:%M:%S') ${PROCNAME} (${fname}:${BASH_LINENO[0]}:${FUNCNAME[1]}) $*" >>"./${PROCNAME}.log"
+    echo -e "$(date '+%Y-%m-%dT%H:%M:%S') ${PROCNAME} (${fname}:${BASH_LINENO[0]}:${FUNCNAME[1]}) $*" >> "${LOG_FILE}"
 }
 
 # get_ami_id

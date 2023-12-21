@@ -22,11 +22,12 @@ $ less aws_ec2_template_update.sh.log
 
 | Constant       | Example              | Description               |
 | -------------- | -------------------- | ------------------------- |
-| AWS_ACCOUNT_ID | 01234567             | AWS Account ID            |
+| LOG_FILE       | aws_ec2_template.log | logfile directory         |
+| AWS_ACCOUNT_ID | 01234567             | aws account ID            |
 | ENV            | dev                  | environment identifier    |
-| AMI_NAME       | ${ENV}-AMI_NAME-*    | AMI name of target server |
-| TEMPLATE_NAME  | ${ENV}-TEMPLATE_NAME | Target EC2 Template Name  |
-| REGION         | ap-northeast-1       | AWS Region Settings       |
+| AMI_NAME       | ${ENV}-AMI_NAME-*    | ami name of target server |
+| TEMPLATE_NAME  | ${ENV}-TEMPLATE_NAME | target ec2 template name  |
+| REGION         | ap-northeast-1       | aws region settings       |
 
 ## Author
 

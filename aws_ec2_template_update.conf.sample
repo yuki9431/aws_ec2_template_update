@@ -1,6 +1,6 @@
 # script configuration
 
-LOG_FILE=./aws_ec2_template.log
+LOG_FILE=./aws_ec2_update_template.log
 
 # aWS configuration
 

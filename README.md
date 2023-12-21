@@ -19,7 +19,7 @@ $ ./aws_ec2_template_update.sh
 ## Logs
 
 ```bash
-$ less aws_ec2_template_update.sh.log
+$ less aws_ec2_update_template.log
 ```
 
 ## Configuration

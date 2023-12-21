@@ -1,8 +1,9 @@
 #!/bin/bash
 ## 用途：対象起動テンプレートを更新する。
 
-#設定ファイルから変数を取得
-source aws_ec2_template_update.conf
+# 設定ファイルから変数を取得
+cd $(dirname "$0")
+. aws_ec2_template_update.conf
 
 # log
 # 説明：引数に渡した文字列をログ用に整形して標準出力する関数

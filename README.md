@@ -3,6 +3,10 @@
 ## Overview
 Automatically update the AMI of the EC2 template.
 
+## Requirement
+You have aws-cli installed on your server.
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
 ## How to Use
 1. Write environment information in aws_ec2_template_update.conf.
 2. Deploy ec2_template_update.sh and ec2_template_update.conf on the server.
